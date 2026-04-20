@@ -1,6 +1,6 @@
 # CUDA Programming [Notes](https://docs.nvidia.cn/cuda/cuda-c-programming-guide/index.html#)
 
-Notes and examples for learning CUDA on NVIDIA GPUs. The repository is organized into four chapters that mirror a typical learning path.
+Notes and examples for learning CUDA on NVIDIA GPUs. The repository is organized into six chapters that mirror a typical learning path.
 
 ---
 
@@ -30,6 +30,8 @@ CUDA is widely used for deep learning (through frameworks that call CUDA/cuDNN),
 | **2. Kernels** | `Kernels/` | Kernel launch configuration, indexing patterns, reductions, matrix patterns |
 | **3. Atomics** | `Atomics/` | Atomic operations, hazards, when atomics help vs hurt |
 | **4. Streams** | `Streams/` | CUDA streams, overlap, ordering, and related timing patterns |
+| **5. CUDA APIS** | `CUDA_APIs/` | cuBLAS, cuDNN, and practical CUDA library API usage examples |
+| **6. Faster MatMUL** | `Faster_MatMUL/` | Optimized matrix multiplication implementations and performance-focused kernels |
 
 ---
 
